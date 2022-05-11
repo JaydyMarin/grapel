@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    width: 100%;
+}
+
+header{
+    background-color: rgb(44, 41, 55);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 80px;
+}
+span{
+    color: rgb(18, 146, 199, 255);
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+}
+hr{
+    color: rgb(18, 146, 199, 255);
+    border: 3px solid;
+    border-radius:22px;
+    padding: 0%;
+}
+
+.cabecera{
+    background:url(../images/cabecera.jpg) 0 -290px;
+    height: 500px;
+    background-size: cover;
+    padding: 0%;
+}
+.cabecera2{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 70px;
+    color: white;
+}
+h1{
+    padding: 21px;
+}
+.cabecera p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+
+}
+.formulario{
+    background-color: rgb(44, 41, 55);
+    color: white;
+    height:80px;
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    
+}
+.formulario p{
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+.formulario2{
+    margin-top: 20px;
+}
+button{
+    color: rgb(246, 246, 246);
+    background-color: orangered;
+    border: none;
+    padding: 7px;
+}
+input{
+    padding: 7px;
+}
+.section3{
+    justify-content: space-between;
+    padding: 20px 300px;
+    display: flex;
+}
+.fun{
+    width: 275px;
+    text-align: center;    
+}
+footer{
+    background-color: rgb(18, 147, 212, 255);
+    height: 80px;
+    color: white;
+    padding: 10px;
+}
+footer p{
+    line-height: 80px;
+    text-align: center;
+}
+.active {
+    color: rgb(18, 147, 212, 255)}
+
+
+
+
+
+
+
+
+
+.section5{
+    padding: 50px 0 20px 100px;
+    width: 80%;    
+}
+.section6{
+    color: white;
+    background: rgb(44, 41, 55);
+    padding: 50px 0 20px 20px; 
+    margin: 20px 0 20px 100px;
+    width: 80%;  
+    height: 150px;   
+}
+.padre{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 82%;
+    margin: 20px 0 80px 100px;
+}
+.section7{
+    background:rgb(44, 41, 55);
+    color: white;
+    width: 20%;
+    height: 300px;
+    margin: 50px;
+    
+}
+
+
+
+
+
+
+
+.TServicios{
+    margin: 10px 0 10px 180px;
+}
+.section8{
+    padding: 25px 100px 20px 100px;
+    margin: 10px 0 10px 180px;
+    width: 60%; 
+    background-color: rgba(198, 198, 198, 0.502);   
+}
+
+.section9{
+    padding: 25px 100px 20px 100px;
+    width: 60%;
+    margin: 10px 0 10px 180px; 
+    background-color: rgba(198, 198, 198, 0.502);   
+}
+
+.section10{
+    padding: 25px 100px 20px 100px;
+    width: 60%; 
+    margin: 10px 0 10px 180px;
+    background-color: rgba(198, 198, 198, 0.502);   
+}
+
+.padre2{
+    display: flex;
+    justify-content: center;
+}
+.section11{
+    background:rgb(44, 41, 55);
+    color: white;
+    width: 30%;
+    height: 200px;
+    margin: 50px 250px 10px 0;
+    padding: 25px 50px 25px 50px;
+    
+}
+
+
+
+
+
+.padreContacto{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px 10px 20px;
+}
+
+input type[text]{
+    width: 60%;
+    border: 1px solid rgb(88, 97, 97)
+}
+.formInput{
+    width: 50%;
+
+}
+.mensaje{
+    width: 50%;
+}
+.enviar{
+    width: 50%;
+    background-color:rgb(235, 63, 0);
+    text-align: center;
+}
+.section12{
+    background:rgb(44, 41, 55);
+    color: white;
+    padding: 25px 50px 25px 50px;
+    width: 50%;
+}
+
+.mapa{
+    width: 100%;
+    padding-top: 20px;
+    width: 63%;
+}
+
+
+.contenedorNegroMapa{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+.formularioContacto{
+    width: 60%;
+    text-align: center;
+}
+@media (max-width: 1200px){
+    .section6{
+        height: 24%;
+        padding: 20px 20px 20px 20px;
+    }
+    .section7{
+        width: 31%;
+        height: 336px;
+        padding: 10px 10px 10px 10px;
+    }
+    .img{
+        width: 85%;
+    }
+    .section8{
+        margin: 10px 0 10px 137px;
+    }
+    .section9{
+        margin: 10px 0 10px 137px;
+    }
+    .section10{
+        margin: 10px 0 10px 137px;
+    }
+    .section11{
+        width: 58%;
+        margin: 57px 34px 33px 47px;
+        height: 264px;
+    }
+    .mapa{
+        width: 71%;
+    }   
+}
+@media (max-width:993px) {
+    .section3{
+        padding: 20px 60px;
+    }
+    .section5{
+        padding: 50px 0 20px 75px;
+    }
+    .section6{
+        padding: 50px 0 20px 75px;
+    }
+    .img{
+        margin: 20px 0 80px 79px;
+    }
+    .img{
+        width: 37%;
+        height: 374px;
+        padding: 20px 20px 20px 20px;
+    }
+    .section8{
+        padding: 25px 80px 20px 80px;
+        margin: 10px 0 10px 33px;
+    }
+    .section9{
+        padding: 25px 80px 20px 80px;
+        margin: 10px 0 10px 33px;
+    }
+    .section10{
+        padding: 25px 80px 20px 80px;
+        margin: 10px 0 10px 33px;
+    }
+    .section11{
+        width: 63%;
+        height: 302px;
+    }
+}
+@media (max-width: 769px) {
+    .cabecera2{
+        font-size: 48px;
+    }
+    .cabecera p{
+        font-size: 14px;
+    }
+    .cabecera{
+        background-size: auto;
+    }
+    .section3{
+        display: flex;
+        flex-direction: column;
+        padding: 25px 257px;
+    }
+    .section5{
+        padding: 50px 0 20px 52px;
+    }
+    .padre{
+        display:flex;
+        flex-direction: column;
+    }
+    .section5{
+        padding: 50px 0 20px 70px;
+    }
+    .section6{
+        padding: 50px 0 20px 20px;
+        margin: 20px 0 20px 71px;
+    }
+    .img{
+        height: 239px;
+        width: 74%;
+    }
+    .section7{
+        height: 357px;
+        margin: 10px 10px 10px 248px;
+    }
+    .padre2{
+        display: flex;
+        flex-direction: column;
+    }
+    .section8{
+        padding: 25px 55px 20px 55px;
+        margin: 10px 0 10px 101px;
+    }
+    .section9{
+        padding: 25px 55px 20px 55px;
+        margin: 10px 0 10px 101px;
+    }
+    .section10{
+        padding: 25px 55px 20px 55px;
+        margin: 10px 0 10px 101px;
+    }
+    .section11{
+        width: 43%;
+        height: 226px;
+        margin: 10px 0 50px 169px;
+    }
+    .section12{
+        padding: 25px 20px 25px 20px;
+        width: 80%;
+    }
+    .mapa{
+        width: 94%;
+    }
+}
+@media (max-width:601px) {
+    header{
+        height: 120px;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    a{
+        margin-top: 3px;
+    }
+    .formulario{
+        height: 94px;
+    }
+    .formulario p{
+        font-size: 16px;
+    }
+    .section3{
+        padding: 25px 163px;
+    }
+    .section6{
+        margin: 20px 0 20px 56px;
+    }
+    .img{
+        height: 201px;
+        width: 83%;
+        margin: 5px 10px 10px 37px;
+    }
+    .TServicios{
+        margin: 10px 0 10px 71px;
+    }
+    .section7{
+        width: 53%;
+        height: 296px;
+        margin: 10px 10px 50px 144px;
+    }
+    .section8{
+        margin: 10px 0 10px 67px;
+    }
+    .section9{
+        margin: 10px 0 10px 67px;
+    }
+    .section10{
+        margin: 10px 0 10px 67px;
+    }
+    .section11{
+        width: 53%;
+        height: 214px;
+        margin: 10px 0 50px 98px;
+    }
+}
